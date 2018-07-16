@@ -1,0 +1,91 @@
+
+
+
+body {
+  background-image:url(img.jpg);
+  background-repeat:no-repeat;
+  background-size: 100%;
+}
+
+*{
+  margin: 5px;
+  padding: 5px;
+}
+
+.menu{
+  background: #0000;
+}
+
+.menu-ul{
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0A166B
+}
+
+.menu-li{
+  padding-left: 12px;
+  float: left;
+}
+
+.menu-a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+}
+
+.menu-a:hover{
+  background-color: #B80D0F;
+}
+
+.container{
+  margin: 0 auto;
+	width: 95%;
+}
+/* --------- Cadastro de Contatos --------- */
+.form{
+  width: 25%;
+  border: 1px solid #7B0D0F;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+  border-radius: 5px;
+  background-color: white;
+}
+
+.formulario{
+  margin-top: 10px;
+}
+.center{
+  text-align: center;
+}
+.input{
+  margin: 0 auto;
+  padding: 10px 5px 10px 5px;
+}
+
+.button{
+  border: 0;
+  margin-bottom: 15px;
+  padding: 10px;
+ background-color: #7B0D0F;
+ color: white;
+}
+
+.button:hover{
+  background-color: #111;
+}
+
+#email{
+  display: none;
+}
+#telefone{
+  display: none;
+}
+#aniversario{
+  display: none;
+}
+#endereco{
+  display: none;
+}
